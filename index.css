@@ -1,0 +1,101 @@
+    body{
+        background-color: rgb(12, 12, 88);
+        color: #fff;
+        max-width: 375px;
+        margin:auto;
+        
+              
+      }
+
+      .flame{
+        border-color: #fff;
+        border-style: solid;
+      }
+
+      .container{
+        min-width:350px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        height: 1000px;
+        
+      }
+
+.Mname{
+  font-family: Roboto;
+  color: #7D73FC;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+
+      }
+.SE{
+  color: #EDECFF;
+  width: 327px;
+  height: 87px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  
+        
+      }
+
+.detail{
+    width: 327px;
+    height: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #C8C8D4;
+}
+hr{
+  
+  border: 1px solid #646369;
+}
+
+.tbl{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.03em;
+color: #9490FF;
+margin-top:40px;
+
+}
+
+th, td {
+    padding: 5px;
+  }
+  .eclips{
+    position: absolute;
+width: 160px;
+height: 160px;
+left: -106px;
+top: 0px;
+
+/* Theme 4 / Primary 4 */
+
+background: #EDECFF;
+filter: blur(50px);
+  }
+  .eclips1{
+    position: absolute;
+width: 68px;
+height: 68px;
+left: 339px;
+top: 495px;
+
+/* Theme 4 / Primary 4 */
+
+background: #EDECFF;
+filter: blur(50px);
+  }
