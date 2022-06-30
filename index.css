@@ -79,15 +79,20 @@ hr {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.03em;
-  
+
   margin-top: 40px;
 }
 
-.HL{color: #9490ff;
-    font-weight: 700;}
-ul{list-style: none;
+.HL {
+  color: #9490ff;
+  font-weight: 700;
 }
-li{margin: 1em 0;}
+ul {
+  list-style: none;
+}
+li {
+  margin: 1em 0;
+}
 
 /*Eclipse styling*/
 .eclips {
