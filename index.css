@@ -37,7 +37,7 @@ body {
   color: #7d73fc;
   font-size: 48px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 70px;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
 }
@@ -48,7 +48,7 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
 }
 /*Intro Detail styling*/
@@ -79,9 +79,15 @@ hr {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.03em;
-  color: #9490ff;
+  
   margin-top: 40px;
 }
+
+.HL{color: #9490ff;
+    font-weight: 700;}
+ul{list-style: none;
+}
+li{margin: 1em 0;}
 
 /*Eclipse styling*/
 .eclips {
