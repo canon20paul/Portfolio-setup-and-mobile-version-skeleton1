@@ -17,7 +17,7 @@
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        height: 1000px;
+        
         
       }
 
@@ -75,27 +75,32 @@ margin-top:40px;
 th, td {
     padding: 5px;
   }
+
   .eclips{
     position: absolute;
 width: 160px;
 height: 160px;
 left: -106px;
 top: 0px;
-
-/* Theme 4 / Primary 4 */
-
 background: #EDECFF;
 filter: blur(50px);
+
   }
-  .eclips1{
+
+.eclips1{
     position: absolute;
 width: 68px;
 height: 68px;
 left: 339px;
 top: 495px;
-
-/* Theme 4 / Primary 4 */
-
 background: #EDECFF;
 filter: blur(50px);
+  }
+  .fa{
+    color:#fff;
+    
+  }
+
+  .fa:hover {
+    color:#f00
   }
