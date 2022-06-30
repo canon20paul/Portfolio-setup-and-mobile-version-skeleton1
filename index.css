@@ -1,3 +1,4 @@
+    /*Main page Body Styling*/
     body{
         background-color: rgb(12, 12, 88);
         color: #fff;
@@ -5,7 +6,7 @@
         margin:auto;
           
       }
-
+/*Top Navigation Positioning*/
 .navtop {
     display: flex;
     flex-flow: column;
@@ -23,10 +24,12 @@
 }
 
 .flame{
+    /*Used to View Flexbox Boundaries when active*/
+   /* border: #fff solid;*/
 
 }
-
-      .container{
+/*Main Flexbox container*/
+.container{
         min-width:350px;
         display: flex;
         flex-flow: column wrap;
@@ -34,7 +37,7 @@
         
         
       }
-
+/*Main Header/Name & title styling*/
 .Mname{
   font-family: Roboto;
   color: #7D73FC;
@@ -57,7 +60,7 @@
   
         
       }
-
+/*Intro Detail styling*/
 .detail{
     width: 327px;
     height: 170px;
@@ -69,11 +72,13 @@
     text-align: center;
     color: #C8C8D4;
 }
+
+/*Horrinzontal Line*/
 hr{
-  
+
   border: 1px solid #646369;
 }
-
+/*table Styling*/
 .tbl{
     
 font-family: Roboto;
@@ -90,6 +95,7 @@ th, td {
     padding: 5px;
   }
 
+  /*Eclipse styling*/
   .eclips{
     position: absolute;
 width: 160px;
@@ -110,6 +116,7 @@ top: 495px;
 background: #EDECFF;
 filter: blur(50px);
   }
+  /*Social media Icons*/
   .fa{
     color:#fff;
     
