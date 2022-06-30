@@ -3,14 +3,28 @@
         color: #fff;
         max-width: 375px;
         margin:auto;
-        
-              
+          
       }
 
-      .flame{
-        border-color: #fff;
-        border-style: solid;
-      }
+.navtop {
+    display: flex;
+    flex-flow: column;
+    width:370px;
+    
+}
+.top{
+    align-self: flex-end;
+    
+}
+.paul{
+    position: relative;
+    z-index: 4;
+    margin-top:20px;
+}
+
+.flame{
+
+}
 
       .container{
         min-width:350px;
