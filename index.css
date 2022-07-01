@@ -135,6 +135,7 @@ order: 0;
 }
 ul {
   list-style: none;
+  
 }
 li {
   margin: 1em 0;
@@ -196,7 +197,7 @@ flex-grow: 0;
     
     display:grid;
     grid-template-columns: 350px ;
-    grid-template-rows: 220px 300px 300px 300px 300px 350px 100px;
+    grid-template-rows: 220px 570px 300px 300px 100px 250px 100px;
     grid-gap: 10px;
     grid-template-areas: "title"
     "main1"
@@ -218,9 +219,16 @@ flex-grow: 0;
   width:350px
 }
 .Wimage .image{
-  padding: 15px;
+  /*padding: 15px;
   width:300px;
-  height: 150px;
+  height: 150px;*/
+
+width: 327px;
+height: 236px;
+background: linear-gradient(0deg, #F9F9F9, #F9F9F9), url(image_processing20200716-21735-f07s4k.png);
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 .work2{
   grid-area: main2;
@@ -243,8 +251,8 @@ flex-grow: 0;
 
 
 
-
-Workttl {
+/*Work Title*/
+.Workttl {
   width: 350px;
   font-family: "Roboto";
   color: #7d73fc;
@@ -257,5 +265,50 @@ Workttl {
   flex: none;
   order: 0;
   flex-grow: 0;}
+  /*Work Description*/
+  .wkttl {
+width: 327px;
+height: 105px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  /*Work ) Project Description*/
+  .WKdetail{
+    margin-top: 0px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #DCDCE8;
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+.wfoot li
+{display: inline;
+  
+margin-top: 0px;
+width: 71px;
+height: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+  }
 
   
