@@ -33,35 +33,49 @@ body {
 }
 /*Main Header/Name & title styling*/
 .Mname {
-  font-family: Roboto;
+  width: 327px;
+  font-family: "Roboto";
   color: #7d73fc;
   font-size: 48px;
   font-weight: 700;
   line-height: 70px;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .SE {
-  color: #edecff;
-  width: 327px;
+  width: 330px;
   height: 87px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #edecff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 /*Intro Detail styling*/
 .detail {
   width: 327px;
   height: 170px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #c8c8d4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 /*Horrinzontal Line*/
